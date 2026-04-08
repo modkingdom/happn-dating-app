@@ -1,0 +1,13 @@
+# Credentials — NEVER commit this file
+.gh-credentials
+
+# Commit counter (local only)
+.gh-commit-count
+
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,53 @@
+site_name: Happn Dating
+site_description: 
+site_url: https://happn-dating-app.readthedocs.io
+
+docs_dir: docs
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  icon:
+    logo: material/bolt
+  palette:
+    - scheme: default
+      primary: deep-orange
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep-orange
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+extra_javascript:
+  - js/tracker.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Features: features.md
+  - How to Download: how-to-download.md
+  - FAQ: faq.md
+<<<ADDITIONAL_NAV>>>

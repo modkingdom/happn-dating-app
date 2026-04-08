@@ -1,0 +1,10 @@
+[project]
+app_name          = "Happn Dating"
+main_keyword      = "Happn Dating app"
+short_description = "Happn Dating app connects users with potential matches they've crossed paths with in real life."
+meta_description  = "Explore our comprehensive Happn Dating app documentation site. Find a detailed download guide, features overview, and answers to your FAQs to enhance your dating experience."
+release_date      = "2026-04-08"
+
+additional_pages = [
+
+]
