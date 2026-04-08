@@ -8,8 +8,6 @@ theme:
   name: material
   custom_dir: overrides
   language: en
-  icon:
-    logo: material/bolt
   palette:
     - scheme: default
       primary: deep-orange
